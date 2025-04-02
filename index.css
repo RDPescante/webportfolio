@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "IBM Plex Mono", monospace !important;
+
+}
+body{
+	padding-top: 50px;
+
+}
+
+#logo{
+	height: 60px;
+	width: auto;
+	font-weight: 600;
+
+}
+
+
+#navmenu{
+	font-weight: 600;
+}
+
+#picture{
+	height: 400px;
+	width: auto;
+}
+
+#landing>div{
+	background-color:;
+}
+
+#cards .card-title{
+	font-weight: 800;
+
+}
+
+.card-img-top {
+    width: 100%;          
+    height: 400px;        
+    object-fit: contain;    
+    background-color: #f8f9fa
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.card-body {
+    flex-grow: 1;  
+}
+
+.frontend-icons img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: contain;
+}
+
+.form-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-footer img {
+    width: 40px;
+    height: 40px; 
+    object-fit: contain; 
+    border-radius: 5px; 
+}
+
+button {
+    display: block;
+    width: 100px; 
+    height: 40px; 
+    margin: 0 auto;
+}
+
+#facebook{
+    width: ;
+    height: ;
+}
+
+#submitbut{
+    width: 100px;
+}
+
+#uabout{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}
+#uproject{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}
+#utools{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}
+#ucontact{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}
+
+#ulogo{
+        text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}
+
+/*#utools2{
+            text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
+}*/

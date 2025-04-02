@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+		<title>Full Stack Web Developer</title>
+
+		<!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body id="logo">
+		<!-- Start NavBar -->
+		<nav class="row navbar navbar-expand-lg navbar-light col-12 mx-auto fixed-top bg-white border border-1">
+			<div class="container-fluid d-flex justify-content-between ">
+				<div class="col-7 ps-5">
+					<a id="ulogo" class="col-6 navbar-brand ms-3" href="#logo">RD PORTFOLIO
+						<!-- <img id="logo" class="img-fluid border rounded-circle" src="./image/RD.png" alt="Logo"> -->
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="col-6 collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+					<div id="navmenu" class="container-fluid  gap-2 navbar-nav col-6">
+					<a id="uabout" class="nav-link active" href="#landing">About Me</a>
+					<a id="uproject" class="nav-link active" href="#projects">Projects</a>
+					<a id="utools" class="nav-link active" href="#tools">Tools</a>
+					<a id="ucontact" class="nav-link active" href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+<!-- End Navbar -->
+
+<!-- Start Landingpage -->
+
+<!-- About me -->
+		<div id="landing" class="row mx-auto container-fluid col-sm-12 col-md-12 col-lg-12 align-items-stretch">
+			<div id="test2" class="col-lg-6 col-md-6 col-sm-12 order-sm-1 text-center my-auto h-100">
+				<div class="px-5 py-5">
+					<img id="picture" class="border border-3 border-secondary img-fluid" src="./image/me.png">
+				</div>
+			</div>
+			<div id="test1" class=" px-5 col-lg-6 col-md-6 col-sm-12 order-sm-2 my-auto h-100 pb-2">
+				<div class="border border-2 py-5 px-2">
+					<h1>Hi, I'm <u>Ardee</u></h1>
+					<p class="pt-3">I'm a frontend developer (hmtl, bootstrap, css). I am currently attending the <strong>Zuitt Developer Bootcamp</strong> to gain more knowledge and experience to eventually be a fullstack developer.</p>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+<!-- End of About me -->
+
+<!-- Start My Projects -->
+
+		<div id="projects" class="container-fluid col-12 col-lg-12 bg-secondary pt-2 pb-5">
+			<div class="col-10 my-auto mx-auto pb-3">
+				<h1 class="text-center py-5 text-light"><u>My Projects</u></h1>
+				<div id="cards" class="row mx-auto col-md-12 col-sm-12 col-lg-12 g-4">
+
+<!-- Card1 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/edoc.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">E-Commerce API Documentation</h5>
+								<p class="card-text">Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card2 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/bookingapp.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Course Booking API Documentation</h5>
+								<p class="card-text">RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card3 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/coursebook.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Course Booking App</h5>
+								<p class="card-text">A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card4 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/api1.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">E-commerce App</h5>
+								<p class="card-text">MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card5 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/apidoc.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Airline Booking System Mockup</h5>
+								<p class="card-text">Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card6 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/airproto.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Airline Booking Sytstem Prototype</h5>
+								<p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment, processing, and real-time ticket management.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card7 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/sc1.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Capstone</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card8 -->
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="card py-2">
+							<img src="./image/sc2.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Capstone</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+					</div>
+
+<!-- Card9 -->
+					<div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block ">
+						<div class="card py-2">
+							<img src="./image/sc3.png" class="img-fluid card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Short Courses Capstone</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- End My Projects -->
+
+<!-- Start Tools -->
+
+		<div id="tools" class="row mx-auto container-fluid mt-4 text-center pb-5 col-12 col-lg-12">
+			<!-- Core Tools Section Start -->
+
+			<h1 id="utools2" class=" text-center mb-5 pt-4"><u>Tools</u></h1>
+			<div class="row d-flex justify-content-center col-lg-12 col-md-12 col-sm-12">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<h2 class="text-center pb-3">Front End</h2>
+					<div class="row justify-content-center d-flex frontend-icons">
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://zuitt-cst.github.io/capstone1/images/tools/html.svg">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://www.bu.edu/lernet/artemis/years/2020/projects/FinalPresentations/HTML/css.jpg">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<h2 class="text-center pb-3">MERN</h2>
+					<div class="row justify-content-center d-flex frontend-icons">
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://michaelwashburnjr.com/hubfs/Imported_Blog_Media/react-icon_svg_.png">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://cdn-ilajckf.nitrocdn.com/utLabjbGVjpaYDQkazoKnooguTzYeQRR/assets/images/optimized/rev-04d93ab/tamediacdn.techaheadcorp.com/wp-content/uploads/2023/09/16045752/nodejs.png">
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<h2 class="text-center pb-3">Other Tools</h2>
+					<div class="row justify-content-center d-flex frontend-icons">
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://media.licdn.com/dms/image/v2/C4E0BAQGmNZMDOpmMQg/company-logo_200_200/company-logo_200_200/0/1631346514331?e=1749081600&v=beta&t=Zst4extnF01XpubTPeDuNEDCpqvApYdvfFvO79HAN7w">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://git-scm.com/images/logos/logomark-orange@2x.png">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8">
+						</div>
+						<div class="p-2 col-6">
+							<img class="img-fluid" src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/05/01221426/sublime-text3125.jpg">
+						</div>
+					</div>
+				</div>
+
+			</div>			
+		</div>
+<!-- End Tools -->
+
+<!-- Start Contact -->
+		<div id="contact" class="container-fluid col-md-12 col-lg-12 col-12  mt-5 d-grid gap-2 bg-secondary pb-5">
+			<h1 class="text-center p-5 text-light"><u>Contact</u></h1>
+				<div id="contactmap" class="row col-md-6 col-10 mx-auto my-auto">
+
+					<!-- Map Section -->
+					<div class="d-flex justify-content-center col-6  d-none d-lg-block">
+						<iframe 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9336.099670300522!2d123.9803882274534!3d10.314140041678883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a997613bbd25df%3A0x8bd061454b8432c1!2sMactan-Cebu%20International%20Airport!5e0!3m2!1sen!2sph!4v1743423320605!5m2!1sen!2sph" 
+						width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+						referrerpolicy="no-referrer-when-downgrade">
+					</iframe>
+				</div>
+
+				<!-- Contact Form Section -->
+				<div id="contactform" class="col-lg-6 col-md-12 col-sm-12">
+					<form>
+						<div class="mb-1">
+							<label for="exampleInputEmail1" class="form-label text-light">Name</label>
+							<input  class="form-control" id="exampleInputEmail1">
+
+						</div>
+						<div class="mb-1">
+							<label for="exampleInputEmail1" class="form-label text-light">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1">
+						</div>
+						<div class="form-group">
+							<label class="text-light" for="message">Message</label>
+							<textarea class="form-control" id="message" rows="7"></textarea>
+						</div>
+						<div class="pt-2 d-flex align-items-center justify-content-between col-md-6 col-6">
+							<!-- Social Media Icons -->
+							<div class="form-footer d-flex gap-2">
+								<a target="_blank" id="facebook" href="https://www.facebook.com/dshong23">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook">
+								</a>
+								<a target="_blank" id="linked" href="https://www.linkedin.com/in/ardee-dwayne-pescante-41b298238/">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+								</a>
+								<a target="_blank" id="gitlab1" href="https://git.zuitt.co/B546/individual-pescante-ardeedwane">
+									<img src="https://images.ctfassets.net/xz1dnu24egyd/3FbNmZRES38q2Sk2EcoT7a/a290dc207a67cf779fc7c2456b177e9f/press-kit-icon.svg" alt="GitLab">
+								</a>
+								<a target="_blank" id="github1" href="https://github.com/RDcante">
+									<img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="GitHub">
+								</a>
+							</div>
+
+							<!-- Submit Button -->
+							<button id="submitbut" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDiv">
+								Submit
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalDivLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="modalDivLabel">Thank You</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body text-dark">
+											<p>Thanks for inquiring!</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+<!-- End Contact -->
+
+<!-- End Landingpage -->
+	<footer class=" text-center p-1" id="footer1">
+		<h5 class="pt-2">Ardee Dwayne Pescante</h5>
+		<p>Full Stack Web Developer</p>
+		<p>2023 | All rights reserved</p>
+	</footer>
+
+		<!-- Bootstrap End -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	</body>
+</html>
