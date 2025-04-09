@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-		<title>Full Stack Web Developer | Ardee Dwayne Pescante</title>
+		<title>Full Stack Web Developer</title>
 
 		<!-- bootstrap -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,7 +22,7 @@
 
 	<body id="logo">
 		<!-- Start NavBar -->
-		<nav class="row navbar navbar-expand-lg navbar-light col-12 mx-auto fixed-top bg-white border border-1">
+		<nav class="row navbar navbar-expand-lg navbar-light col-12 mx-auto fixed-top">
 			<div class="container-fluid d-flex justify-content-between ">
 				<div class="col-7 ps-5">
 					<a id="ulogo" class="col-6 navbar-brand ms-3" href="#logo">RD PORTFOLIO
@@ -33,7 +33,7 @@
 				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="col-6 collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+				<div id="navA" class="col-6 collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
 					<div id="navmenu" class="container-fluid  gap-2 navbar-nav col-6">
 					<a id="uabout" class="nav-link active" href="#landing">About Me</a>
 					<a id="uproject" class="nav-link active" href="#projects">Projects</a>
@@ -55,8 +55,8 @@
 				</div>
 			</div>
 			<div id="test1" class=" px-5 py-3 col-lg-6 col-md-6 col-sm-12 order-sm-2 my-auto h-100 pb-2">
-				<div class="border border-2 py-5 px-2">
-					<h1>Hi, I'm <u>Ardee</u></h1>
+				<div class=" py-5 px-2">
+					<h1>Hi, I'm Ardee</h1>
 					<p class="pt-3">I'm a full-stack developer with a passion for building responsive and dynamic web applications. Proficient in HTML, CSS, Bootstrap, JavaScript, and backend technologies, I love turning ideas into functional and visually appealing digital experiences.</p>
 				</div>
 			</div>
@@ -68,9 +68,9 @@
 
 <!-- Start My Projects -->
 
-		<div id="projects" class="container-fluid col-12 col-lg-12 bg-secondary pt-2 pb-5">
+		<div id="projects" class="container-fluid col-12 col-lg-12 pt-2 pb-5">
 			<div class="col-10 my-auto mx-auto pb-3">
-				<h1 class="text-center py-5 text-light"><u>My Projects</u></h1>
+				<h1 class="text-center py-5"><u>My Projects</u></h1>
 				<div id="cards" class="row mx-auto col-md-12 col-sm-12 col-lg-12 g-4">
 
 <!-- Card1 -->
@@ -183,8 +183,8 @@
 
 			<h1 id="utools2" class=" text-center mb-5 pt-4"><u>Tools</u></h1>
 			<div class="row d-flex justify-content-center col-lg-12 col-md-12 col-sm-12">
-				<div class="col-lg-4 col-md-12 col-sm-12">
-					<h2 class="text-center pb-3">Front End</h2>
+				<div class="col-lg-4 col-md-12 col-sm-12 border">
+					<h2  class="text-center pb-3 ">Front End</h2>
 					<div class="row justify-content-center d-flex frontend-icons">
 						<div class="p-2 col-6">
 							<img class="img-fluid" src="https://zuitt-cst.github.io/capstone1/images/tools/html.svg">
@@ -201,7 +201,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-4 col-md-12 col-sm-12">
+				<div id="merntools" class="col-lg-4 col-md-12 col-sm-12 border">
 					<h2 class="text-center pb-3">MERN</h2>
 					<div class="row justify-content-center d-flex frontend-icons">
 						<div class="p-2 col-6">
@@ -220,7 +220,7 @@
 				</div>
 
 
-				<div class="col-lg-4 col-md-12 col-sm-12">
+				<div id="othertoos" class="col-lg-4 col-md-12 col-sm-12 border">
 					<h2 class="text-center pb-3">Other Tools</h2>
 					<div class="row justify-content-center d-flex frontend-icons">
 						<div class="p-2 col-6">
@@ -243,8 +243,8 @@
 <!-- End Tools -->
 
 <!-- Start Contact -->
-		<div id="contact" class="container-fluid col-md-12 col-lg-12 col-12  mt-5 d-grid gap-2 bg-secondary pb-5">
-			<h1 class="text-center p-5 text-light"><u>Contact</u></h1>
+		<div id="contact" class="container-fluid col-md-12 col-lg-12 col-12  mt-5 d-grid gap-2 pb-5">
+			<h1 class="text-center p-5"><u>Contact</u></h1>
 				<div id="contactmap" class="row col-md-6 col-10 mx-auto my-auto">
 
 					<!-- Map Section -->
@@ -260,16 +260,16 @@
 				<div id="contactform" class="col-lg-6 col-md-12 col-sm-12">
 					<form>
 						<div class="mb-1">
-							<label for="exampleInputEmail1" class="form-label text-light">Name</label>
+							<label for="exampleInputEmail1" class="form-label">Name</label>
 							<input  class="form-control" id="exampleInputEmail1">
 
 						</div>
 						<div class="mb-1">
-							<label for="exampleInputEmail1" class="form-label text-light">Email</label>
+							<label for="exampleInputEmail1" class="form-label">Email</label>
 							<input type="email" class="form-control" id="exampleInputEmail1">
 						</div>
 						<div class="form-group">
-							<label class="text-light" for="message">Message</label>
+							<label class="" for="message">Message</label>
 							<textarea class="form-control" id="message" rows="7"></textarea>
 						</div>
 						<div class="pt-2 d-flex align-items-center justify-content-between col-md-6 col-6">
@@ -291,7 +291,7 @@
 
 							<div class="container-fluid">
 							<!-- Submit Button -->
-								<button id="submitbut" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDiv">
+								<button id="submitbut" type="button" class="btn btn-primary text-dark" data-bs-toggle="modal" data-bs-target="#modalDiv">
 									Submit
 								</button>
 							</div>
@@ -304,11 +304,11 @@
 											<h5 class="modal-title" id="modalDivLabel">Thank You</h5>
 											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 										</div>
-										<div class="modal-body text-dark">
+										<div class="modal-body text-white">
 											<p>Thanks for inquiring!</p>
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
 										</div>
 									</div>
 								</div>

@@ -1,38 +1,44 @@
 *{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "IBM Plex Mono", monospace !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace !important;
+    background-color: #DCE2F0; !important;
 
 }
 body{
-	padding-top: 50px;
+    padding-top: 50px;
 
 }
 
 #logo{
-	height: 60px;
-	width: auto;
-	font-weight: 600;
+    height: 60px;
+    width: auto;
+    font-weight: 600;
 
 }
+
+#navA a:hover{
+    background-color: #50586C;
+}
+
 
 
 #navmenu{
-	font-weight: 600;
+    font-weight: 800;
 }
 
 #picture{
-	height: 400px;
-	width: auto;
+    height: 400px;
+    width: auto;
 }
 
 #landing>div{
-	background-color:;
+    background-color:;
 }
 
 #cards .card-title{
-	font-weight: 800;
+    font-weight: 800;
 
 }
 
@@ -40,7 +46,7 @@ body{
     width: 100%;          
     height: 400px;        
     object-fit: contain;    
-    background-color: #f8f9fa
+    background-color: #f8f9fa;
 
 }
 
@@ -91,7 +97,7 @@ button {
     width: 100px;
 }
 
-#uabout{
+/*#uabout{
     text-decoration: underline;
     text-decoration-color: grey;
     text-decoration-thickness: 2px;
@@ -110,13 +116,8 @@ button {
     text-decoration: underline;
     text-decoration-color: grey;
     text-decoration-thickness: 2px;
-}
+}*/
 
-#ulogo{
-        text-decoration: underline;
-    text-decoration-color: grey;
-    text-decoration-thickness: 2px;
-}
 
 /*#utools2{
             text-decoration: underline;
@@ -124,3 +125,14 @@ button {
     text-decoration-thickness: 2px;
 }*/
 
+#cards .card{
+    background-color: #DCE2F0;
+}
+
+#test1 h1{
+    color: indianred;
+}
+
+#utools2 .border{
+    border-color: #50586C;
+}
